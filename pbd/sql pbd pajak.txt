@@ -1,0 +1,34 @@
+create database pajakpbd;
+use pajakpbd;
+
+create table wajib_pajak_pph
+(npwp char(15) primary key,
+nama_wp varchar(25) not null,
+jk varchar (2) not null,
+status varchar(15) not null,
+jml_anak int(1) not null,
+pekerjaan varchar(25) not null);
+
+create table bayar_pph
+(no_transaksi char(8) primary key,
+tgl_transaksi date,
+npwp char(15),
+p_netto int not null,
+ptkp int not null,
+pph_terutang int not null,
+foreign key (npwp) references wajib_pajak(npwp));
+
+create table detail_bayar_pph
+(no_transaksi char(8),
+total int,
+foreign key(no_transaksi) references bayar(no_transaksi));
+
+
+insert into wajib_pajak_pph
+(npwp,nama_wp,jk,status,jml_anak,pekerjaan) values
+('446216590544000','Arif dwi iswanti','W','single',0,'mahasiswa'),
+('446216980544123','alif','P','single',0,'mahasiswa');
+
+
+insert into bayar_pph values
+('00002','2014-09-13','446216590544000','20000000','13200000','3400000');

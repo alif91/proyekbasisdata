@@ -1,0 +1,34 @@
+/*
+css ini disusun oleh cv.dharma bhakti
+*/
+
+@font-face {
+	font-family: 'Browallia New';
+	src: local('?'),url('../font/Browallia-New.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Eras Light ITC';
+	src: local('?'),url('../font/Eras-Light-ITC.TTF') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lumpy Bump';
+	src: local('?'),url('../font/Lumpbump.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Pristina';
+	src: local('?'),url('../font/PRISTINA.TTF') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Flowerpot';
+	src: local('?'),url('../font/Flowerpot.otf') format('opentype');
+	font-weight: normal;
+	font-style: normal;
+}

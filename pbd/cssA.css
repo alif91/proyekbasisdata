@@ -1,0 +1,86 @@
+body {
+background-image:url (bg.jpeg);
+background-position:center;
+vertical-align:middle;
+background-repeat:no-repeat;
+background-attachment:fixed;
+}
+
+#wrapper {
+margin-left:auto;
+margin-right:auto;
+font-family:verdana;
+padding:0 0 0 0;
+width:1000px;
+}
+#header {
+height:100px;
+border:5px solid blue;
+margin-bottom:3px;
+background-color:#9999ff;
+}
+#footer {
+clear:both;
+height:12px;
+border:1px solid black;
+font-size:10px;
+text-align:center;
+}
+#center {
+float:left;
+width:1000px;
+border:3px solid red;
+height:400px;
+background-image:url(img/bok.PNG);
+background-position:800px;
+vertical-align:middle;
+background-repeat:;
+background-attachment:fixed;
+}
+#center img{
+float:right;
+width:80;
+height:80;
+}
+#right {
+float:right;
+width:240px;
+border:3px solid green;
+height:400px;
+}
+#right  img{
+float:right;
+width:180;
+}
+#menu {
+float:left;
+width:1000px;
+height:0px;
+background-color:orange;
+border:2px solid orange;
+height:25px;
+}
+#menu ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+
+#menu ul li {
+float:left;
+border-right:2px solid white;
+}
+#menu a {
+text-decoration:none;
+display:block;
+width:193px;
+background-color:#0000ff;
+color:white;
+text-align:center;
+margin:2px;
+}
+#menu a:hover {
+background-color:white;
+color:black;
+}
+
